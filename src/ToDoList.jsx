@@ -1,17 +1,19 @@
 import React, {useState} from "react"
 import edit from "./assets/Vector.svg"
 import del from "./assets/delete.svg"
-
+import Swal from 'sweetalert2'
 
 function ToDoList(){
 
         const [tasks, setTasks] = useState([]);
         const [newTask, setNewTask] = useState("");
 
+        // Gerenciamento de novas inserções
         function handleInputChange(event){
             setNewTask(event.target.value);
         }
 
+        // Adicionar novas tarefas
         function addTask(){
 
             if(newTask.trim() !== ""){
@@ -21,11 +23,32 @@ function ToDoList(){
             
         }
 
+        // Geração de Pop-Up para confirmação
+        const handleClick = (task, index) => {
+        Swal.fire({
+            title: "Deseja excluir esse item destaque?",
+            text: task,
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Sim",
+            cancelButtonText: "Não"
+          }).then((result) => {
+            if (result.isConfirmed) {
+              
+                deleteTask(index);
+              
+            }
+          });
+        }
+
+        // Deletar tarefa
         function deleteTask(index){
             const updatedTasks = tasks.filter((_, i) => i !== index);
             setTasks(updatedTasks);
         } 
- 
+
         return(
 
             //Menu superior
@@ -36,9 +59,8 @@ function ToDoList(){
                 </div>
 
             <h1>Otimize seu tempo e se organize com o nosso Planejador Diário .</h1>
-
             
-            <div id="form"> 
+            <div id="form">
                 <ul className="title">
                            <li className="title2">Tarefas</li>
                            <li className="title2">Status</li>
@@ -49,30 +71,25 @@ function ToDoList(){
 
                 <ol>
           
-          {tasks.map((task, index) => 
-              <li key={index}>
-                  
-           
-                  <span className="text">{task}</span>
-                  <div><input type="checkbox"></input></div>
-                  
-                  <div><button className="delete-button"><img src={edit } width="20.42" height="22.5" /></button>
-                  <button className="delete-button"><img src={del }  width="20.42" height="22.5" onClick={deleteTask()}/></button></div>
-                  
-                  
-              </li>
+                    {tasks.map((task, index) => 
+                        <li key={index}>
                             
-          )}
-               
-      </ol>
-                  
+                            <span className="text">{task}</span>
+                            <div><input type="checkbox"></input></div>
+                            
+                            <div><button className="delete-button"><img src={edit } width="20.42" height="22.5" /></button>
+                            <button className="delete-button"><img src={del }  width="20.42" height="22.5" onClick={() => handleClick(task, index)}/></button></div>                                                 
+                        </li>
+                                      
+                    )}                       
+                </ol>
+             
                 <div id="add">
                     <input type="text" placeholder="Nova tarefa" value={newTask} onChange={handleInputChange}/>
                     <button className="add-button" onClick={addTask}>+</button>
   
                 </div>
-
-                </div>             
+                </div>                 
         </div>)
 }
 
