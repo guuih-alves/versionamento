@@ -1,4 +1,3 @@
-
 import Teacher1 from "./assets/Vector.svg"
 import Teacher2 from "./assets/delete.svg"
 
