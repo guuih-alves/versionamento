@@ -31,8 +31,8 @@ Projeto para criação e gerenciamento de lista de tarefas, com acesso clara as 
 
 || Linguagens utilizadas ||
 
-Javascript com integração com React
-CSS
+Javascript com integração com React;
+CSS;
 HTML
 
 
