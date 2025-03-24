@@ -1,0 +1,128 @@
+Para o desenvolvimento, foram realizados a criação de Branchs em paralelo com a principal.
+
+Branch Main: Responsável por agregar todo o desenvolvimento do projeto
+
+Branch Interface: Responsável pelo design gráfico da pagina
+
+Branch Development: Responsável pela funcionalidades React/JS.
+
+Branch Version-1: Versão do projeto anterior a final com união de todos os módulos.
+
+
+
+
+
+
+
+|| Commits realizados ||
+
+
+commit 10c84bbc3d472216da6a33f62a2cb02363dcc8f6 (HEAD -> main, origin/main, origin/HEAD)
+Merge: 9e2d50a 6c126f2
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 11:46:19 2025 -0300
+
+    Versao Final
+
+commit 9e2d50a182a21c8597db878583d709eb3d3657d8
+Merge: 49140f9 c3258ed
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 11:41:27 2025 -0300
+
+    version-1
+
+commit 6c126f27aa71e61d56e1159d243e005164d57361
+Merge: c4ba346 be9139d
+Author: guuih-alves <62120624+guuih-alves@users.noreply.github.com>
+Date:   Mon Mar 24 11:31:15 2025 -0300
+
+    Merge pull request #3 from guuih-alves/development
+    
+    Development
+
+commit be9139d067b4ab1ae8b5a627db3a9dff993a45e9 (origin/development)
+Merge: 7c522b0 c4ba346
+Author: guuih-alves <62120624+guuih-alves@users.noreply.github.com>
+Date:   Mon Mar 24 11:31:04 2025 -0300
+
+    Merge branch 'main' into development
+
+commit c4ba346165f0e5e0354920fa09b26436b763e77a
+Merge: c3258ed d8784d7
+Author: guuih-alves <62120624+guuih-alves@users.noreply.github.com>
+Date:   Mon Mar 24 11:30:00 2025 -0300
+
+    Merge pull request #2 from guuih-alves/interface
+    
+    Interface
+
+commit 49140f9a6b23b132187bfece194c99ee69470f3e
+Merge: 7c522b0 d8784d7
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 11:22:04 2025 -0300
+
+    versio-1
+
+commit d8784d702a1f2e056402a0d056a805e7f6e1f398 (origin/interface, interface)
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 11:12:31 2025 -0300
+
+    Adição final desing
+
+commit 7c522b028ade85711f27131216e9215a0085bd38 (development)
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 11:07:09 2025 -0300
+
+    Instalando pacote Swal e função de Pop-Up
+
+commit f33572936df5608d3516f4bdc9628e1b3759bab4
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 11:01:02 2025 -0300
+
+    Adicionando comandos de adição, exclusão e contagem
+
+commit cc96354513b0bca602a5ec06d69665d719cab368
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 10:59:54 2025 -0300
+
+    Aplicação de novos efeitos de cor
+
+commit 0e3c1870ec37e4ac63f7db4cef56552436f4a0f9
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 10:30:07 2025 -0300
+
+    Aplicação de efeitos em menu e listas
+
+commit c3258ed3bc913ce73ff19baf5678d6a7f3b23239
+Merge: 7e9779c 22a0e26
+Author: guuih-alves <62120624+guuih-alves@users.noreply.github.com>
+Date:   Mon Mar 24 10:19:44 2025 -0300
+
+    Merge pull request #1 from guuih-alves/development
+
+    Criação de interface
+
+commit 22a0e26629a7ccd1d545534daa8067fb057823d5
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 10:18:10 2025 -0300
+
+    Criação de interface
+
+commit 7e9779cf35c3ea5c3a97ae43dff5a1cdc47f30c6
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 10:03:46 2025 -0300
+
+    Criação de pastas e adição de imagens
+
+commit 12ac54f7752847a8e3a68bfa91b5febe684a8723
+Author: Guilherme Alves <guilherme_alves_08@hotmsil.com>
+Date:   Mon Mar 24 09:54:29 2025 -0300
+
+    Instalando react
+
+commit 6fcc1d4f4c5dad03ad17a9bf0b91fb767d59bf01
+Author: guuih-alves <62120624+guuih-alves@users.noreply.github.com>
+Date:   Mon Mar 24 09:52:33 2025 -0300
+
+    Initial commit
+

@@ -1,0 +1,20 @@
+Para criação da funcionalidades do PopUp para deletar tarefas:
+
+Utilizar "SweetAlter2"
+
+comando: npm i sweetalter2
+
+
+
+
+Função HandleClick
+Para criação de popup para exclusão de tarefas
+
+DeleteTasks
+Para gerenciar a exclusão de tarefas
+
+AddTaks
+Criação de tarefas
+
+Tasks.map
+Para realizar a iteração entre componentes da lista

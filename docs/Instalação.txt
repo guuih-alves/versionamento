@@ -1,0 +1,28 @@
+1º Criar repositório remoto no GitHub, em condições em que o mesmo já se encontra criado, realizar o clonagem para o repositório local
+
+https://github.com/guuih-alves/versionamento.git
+
+
+2º Para execução do ambiente local, é necessário a instalação do NodeJs: https://nodejs.org/
+
+
+3º Criação do React/Vite
+
+npm create vite@latest
+
+
+4º Instalação do pacote
+
+npm install
+
+
+5 Execução da interface de trabalho
+
+npm run dev 
+
+
+6º Para acesso a função de gerenciamento de tarefas em Pop-up, instalar o pacote "SweetAlert"
+
+npm i sweetalter2
+
+

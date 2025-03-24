@@ -1,0 +1,5 @@
+A aplicação ToDoList consiste em um gerenciador online de tarefas, 
+onde o usuário poderá listas todas as tarefas do qual deseja fazer, 
+realizar marcações para controle e caso seja necessário será possível
+realizar editar e deletar a tarefa e ter acesso o tempo em real, e|
+com adição de confirmação de exclusão do mesmo.
