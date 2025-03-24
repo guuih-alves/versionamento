@@ -20,9 +20,17 @@ body{
 .header span{
   padding-left: 30px;
   font-weight: 600;
-  color: wheat;
+  color: white;
 }
 
+.header span:hover{
+  background-color: white;
+  color: blue;
+  height: 40px;
+  border-radius: 10px 10px 0 0;
+
+
+}
 
 h1{
   font-size: 40px;
@@ -46,6 +54,7 @@ button{
     height: 300px;
     display: inline-block;
 
+
   }
 
   .add-button{
@@ -56,6 +65,13 @@ button{
     background-color: blueviolet;
   }
 
+  .delete-button{
+    background: none;
+  } 
+
+  .delete-button:hover{
+    background-color: blueviolet;
+  }
 
   input[type="text"]{
     font-size: 20px;
@@ -91,6 +107,13 @@ button{
     justify-content: space-between;
   }
 
+  ul.title{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    
+  }
 
   li.title2{
     border: none;
@@ -98,10 +121,20 @@ button{
 
   }
 
+ 
+  .delete-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+  }
+
   .text{
     width: 200px;
   }
 
-
+  #add{
+      text-align: left;
+     
+  }
 
   
