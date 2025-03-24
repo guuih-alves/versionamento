@@ -23,7 +23,7 @@ function ToDoList(){
             
         }
 
-        // Geração de Pop-Up para confirmação
+        // Geração de Pop-Up para confirmação delete
         const handleClick = (task, index) => {
         Swal.fire({
             title: "Deseja excluir esse item destaque?",
